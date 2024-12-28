@@ -12,7 +12,7 @@ function Header() {
     );
   }
   return (
-    <header >
+    <header>
       <div className="container">
         <div className="flex-header">
           <div className="first-section-title">

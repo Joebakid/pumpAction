@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Docs from "./Docs";
 import Command from "./Command";
 import TermOfUse from "./TermOfUse";
+import Features from "./Features";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             element={
               <>
                 <Header /> {/* Render Header only on the main page */}
+                <Features />
               </>
             }
           />
