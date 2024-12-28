@@ -446,12 +446,21 @@ header {
 .features-card {
   background-color: #e0fff0;
   padding: 20px;
+  width: 25%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .feature-list {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .features-card {
