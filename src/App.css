@@ -414,6 +414,10 @@ header {
 }
 
 /* //////////////////// */
+section {
+  padding: 100px 0;
+}
+/* ///////////// */
 
 /* FEATURES */
 .features h2 {
@@ -439,7 +443,7 @@ header {
 
 .features-intro {
   text-align: center;
-  padding: 100px 0;
+
   border-top: 1px solid black;
 }
 
@@ -480,6 +484,83 @@ header {
 }
 
 /* //////////////////// */
+/* How It Work */
+.HowItWork h2 {
+  color: white;
+  font-size: 3rem;
+}
+
+.HowItWork-el {
+  text-align: center;
+}
+.HowItWork p {
+  color: gray;
+  font-weight: bolder;
+}
+
+.HowItWork-flex {
+  padding: 100px 0;
+}
+
+/* .Conect-number {
+  font-weight: bolder;
+  border: 1px solid;
+  padding: 10px; 
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 25px;  
+  height: 25px;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0fff0;
+  color: black;
+  margin-right: -10px;
+  z-index: 2;
+  font-size: 1.5rem;
+}
+
+.Conect-text {
+  border: 1px solid;
+  padding: 10px 50px;
+  background-color: #e0fff0;
+  color: black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+} */
+
+ .flex-howitwork-one{
+   display: flex;
+  justify-content: flex-start;
+ }
+
+.flex-howitwork-two {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-howitwork-three {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-howitwork-four {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.connect-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
 /* //////////////////// */
 
 /* Responsive Design */
@@ -628,5 +709,14 @@ header {
 
   .features-card {
     width: 80%;
+  }
+  /* How It Works */
+  .flex-howitwork-three,
+    .flex-howitwork-one,
+  .flex-howitwork-two,
+  .flex-howitwork-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

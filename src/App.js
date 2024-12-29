@@ -6,6 +6,7 @@ import Docs from "./Docs";
 import Command from "./Command";
 import TermOfUse from "./TermOfUse";
 import Features from "./Features";
+import HowItWork from "./HowItWork";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <>
                 <Header /> {/* Render Header only on the main page */}
                 <Features />
+                <HowItWork />
               </>
             }
           />
