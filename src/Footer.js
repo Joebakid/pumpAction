@@ -2,8 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="container">
-      <section>
+    <footer>
+      <hr />
+      <section className="container">
         <div className="footer-container">
           <div className="footer-part-one">
             {/* <div>
@@ -51,7 +52,7 @@ function Footer() {
           </div>
         </div>
       </section>
-    </div>
+    </footer>
   );
 }
 
