@@ -535,10 +535,10 @@ section {
   -o-border-radius: 5px;
 } */
 
- .flex-howitwork-one{
-   display: flex;
+.flex-howitwork-one {
+  display: flex;
   justify-content: flex-start;
- }
+}
 
 .flex-howitwork-two {
   display: flex;
@@ -559,6 +559,74 @@ section {
   display: flex;
   /* justify-content: center; */
   align-items: center;
+}
+
+/* ////////////////////////// */
+
+.aboutapi-el {
+  /* text-align: center; */
+}
+
+.aboutapi-title {
+  /* text-align: center; */
+  font-size: 2rem;
+}
+
+.aboutapi-text {
+  color: #19d47b;
+  font-weight: bold;
+  font-size: 1.15rem;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.aboutapi-el ol {
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 10px; */
+  padding: 0;
+  /* gap: 50px; */
+  text-align: left;
+}
+
+.aboutapi-el ol li {
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+/* //////////////// */
+
+/* footer {
+  background-color: #050505;
+} */
+
+.footer-container {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.footer-part-one {
+  display: flex;
+  gap: 10px;
+  /* align-items: flex-start; */
+  /* align-items: normal; */
+  align-items: center;
+  /* justify-content: top; */
+  width: 40%;
+}
+
+.flex {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.footer-part-two {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 /* //////////////////// */
@@ -712,7 +780,7 @@ section {
   }
   /* How It Works */
   .flex-howitwork-three,
-    .flex-howitwork-one,
+  .flex-howitwork-one,
   .flex-howitwork-two,
   .flex-howitwork-four {
     display: flex;

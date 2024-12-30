@@ -7,6 +7,8 @@ import Command from "./Command";
 import TermOfUse from "./TermOfUse";
 import Features from "./Features";
 import HowItWork from "./HowItWork";
+import AboutApi from "./AboutApi";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
                 <Header /> {/* Render Header only on the main page */}
                 <Features />
                 <HowItWork />
+                <AboutApi />
+                <Footer/>
               </>
             }
           />
