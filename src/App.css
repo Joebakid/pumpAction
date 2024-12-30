@@ -420,6 +420,11 @@ section {
 /* ///////////// */
 
 /* FEATURES */
+
+.features{
+  margin: 100px 0;
+}
+
 .features h2 {
   text-transform: uppercase;
   font-size: 1.7rem;
@@ -443,8 +448,8 @@ section {
 
 .features-intro {
   text-align: center;
-
-  border-top: 1px solid black;
+  /* border-top: 1px solid black;
+  padding: 60px 0; */
 }
 
 .features-card {

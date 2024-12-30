@@ -21,6 +21,7 @@ function Features() {
 
   return (
     <div className="container">
+      <hr />
       <section className="features">
         <div className="features-intro">
           <h2>Features</h2>

@@ -47,7 +47,12 @@ function Footer() {
               <h3>Email: support@soltradingbot.co</h3>
             </div>
             <div>
-              <h3>Telegram : link </h3>
+              <h3>
+                Telegram :{" "}
+                <a href="link" target="_blank">
+                  @bakid1
+                </a>{" "}
+              </h3>
             </div>
           </div>
         </div>
