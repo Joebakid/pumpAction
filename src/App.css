@@ -421,7 +421,7 @@ section {
 
 /* FEATURES */
 
-.features{
+.features {
   margin: 100px 0;
 }
 
@@ -448,8 +448,8 @@ section {
 
 .features-intro {
   text-align: center;
-  /* border-top: 1px solid black;
-  padding: 60px 0; */
+  /* border-top: 1px solid black; */
+  padding: 60px 0;
 }
 
 .features-card {
