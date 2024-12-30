@@ -792,4 +792,22 @@ footer {
   .footer-container {
     flex-direction: column;
   }
+
+  .footer-part-one {
+    display: flex;
+    gap: 10px;
+
+    align-items: center;
+
+    width: 100%;
+  }
+
+  .footer-part-two {
+    display: flex;
+    gap: 10px;
+
+    align-items: center;
+
+    width: 100%;
+  }
 }

@@ -6,7 +6,7 @@ function Footer() {
       <section>
         <div className="footer-container">
           <div className="footer-part-one">
-            <div>
+            {/* <div>
               <svg
                 width="35"
                 height="35"
@@ -28,7 +28,7 @@ function Footer() {
                   fill="white"
                 />
               </svg>
-            </div>
+            </div> */}
             <div>
               <h3>Join the Community</h3>
               <p>
