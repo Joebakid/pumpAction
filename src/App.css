@@ -596,9 +596,9 @@ section {
 
 /* //////////////// */
 
-/* footer {
-  background-color: #050505;
-} */
+footer {
+  background-color: #05050500;
+}
 
 .footer-container {
   display: flex;
@@ -786,5 +786,10 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
   }
 }
