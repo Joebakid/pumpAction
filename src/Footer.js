@@ -49,7 +49,7 @@ function Footer() {
             <div>
               <h3>
                 Telegram :{" "}
-                <a href="link" target="_blank">
+                <a href="https://t.me/bakid1" rel="noreferrer" target="_blank">
                   @bakid1
                 </a>{" "}
               </h3>
