@@ -43,13 +43,24 @@ function Footer() {
               <h3>Contact Us</h3>
               <p>For inquiries or assistance:</p>
             </div>
-            <div>
-              <h3>Email: support@soltradingbot.co</h3>
+            <div className="flex-mail-container">
+              Mail :
+              <a
+                className="footer-a"
+                href="mailto:support@soltradingbot.co?subject=Support%20Request&body=Hello%2C%20I%20need%20help%20with..."
+              >
+                support@soltradingbot.co
+              </a>
             </div>
             <div>
               <h3>
                 Telegram :{" "}
-                <a href="https://t.me/bakid1" rel="noreferrer" target="_blank">
+                <a
+                  className="footer-a"
+                  href="https://t.me/bakid1"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   @bakid1
                 </a>{" "}
               </h3>

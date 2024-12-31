@@ -29,24 +29,26 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Nav />
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Header /> {/* Render Header only on the main page */}
-                <Features />
-                <HowItWork />
-                <AboutApi />
-                <Footer />
-              </>
-            }
-          />
-          <Route path="/Docs" element={<Docs />} />
-          <Route path="/Command" element={<Command />} />
-          <Route path="/TermOfUse" element={<TermOfUse />} />
-        </Routes>
+        <Nav className="nav" />
+        <div className="main-content">
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Header /> {/* Render Header only on the main page */}
+                  <Features />
+                  <HowItWork />
+                  <AboutApi />
+                  <Footer />
+                </>
+              }
+            />
+            <Route path="/Docs" element={<Docs />} />
+            <Route path="/Command" element={<Command />} />
+            <Route path="/TermOfUse" element={<TermOfUse />} />
+          </Routes>
+        </div>
       </div>
     </Router>
   );

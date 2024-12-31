@@ -10,9 +10,30 @@ body {
 .nav {
   background: url(/public/img/pumpaction.jpeg);
   font-weight: bold;
-  padding: 10px 0;
+  /* padding: 10px 0; */
   border-bottom: 2px solid #19d47b;
 }
+
+/*  */
+.App {
+  display: grid;
+  grid-template-rows: auto 1fr; /* Nav takes the auto height; the rest fills the available space */
+  grid-template-columns: 1fr; /* Single column layout */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent extra scrolling on the app container */
+}
+
+.nav {
+  background-color: #f8f9fa; /* Example styling for Nav */
+  z-index: 10;
+}
+
+.main-content {
+  overflow-y: auto; /* Make main content scrollable */
+  padding: 16px;
+}
+
+/*  */
 
 .container {
   width: 90%;
@@ -605,10 +626,20 @@ footer {
   background-color: #05050500;
 }
 
+.footer-a {
+  color: white;
+  /* text-decoration: none; */
+}
+
 .footer-container {
   display: flex;
   align-content: center;
   justify-content: space-between;
+}
+
+.flex-mail-container{
+  display: flex;
+  gap: 10px;
 }
 
 .footer-part-one {
