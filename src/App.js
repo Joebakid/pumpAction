@@ -9,8 +9,23 @@ import Features from "./Features";
 import HowItWork from "./HowItWork";
 import AboutApi from "./AboutApi";
 import Footer from "./Footer";
+import Loading from "./Loading";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <Loading />;
+  }
+
   return (
     <Router>
       <div className="App">
@@ -24,7 +39,7 @@ function App() {
                 <Features />
                 <HowItWork />
                 <AboutApi />
-                <Footer/>
+                <Footer />
               </>
             }
           />
