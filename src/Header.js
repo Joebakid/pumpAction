@@ -31,7 +31,7 @@ function Header() {
 
           <div className="header-btn">
             {" "}
-            <a className="header-nav-link-a" href="link">
+            <a className="header-nav-link-a" target="_blank" href="https://t.me/pumpAction247Bot">
               Get Started
             </a>
           </div>
